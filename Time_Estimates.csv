@@ -1,7 +1,16 @@
 Story,Task,Estimate min (hr),Estimate max (hr),Actual,Comment
-Initial Setup,Basic notebook setup & data loading,0.5,1,0.75,Basic structure completed
-Core Features,Basic product & order queries,1,2,2,Simple matching implemented
-Core Features,Conversation context handling,1,2,1.5,Store previous queries and customer IDs
-Core Features,Implement sample query types,1.5,2.5,,Top rated products, priority orders etc.
-Testing,Test with example queries,0.5,1,,Verify against provided examples
-Documentation,Code comments and markdown,0.5,1,,Clear documentation
+Initial Setup,Environment setup and dependencies,0.5,1,0.75,Installing required packages
+Initial Setup,FastAPI server setup,0.5,1,1,Setting up mock API endpoints
+Initial Setup,Basic notebook structure,0.5,1,0.75,Basic code organization
+Data Processing,Load and clean datasets,0.5,1,0.5,Basic data loading and cleaning
+Core Features,Implement embedding system,1,2,0.5,Product search using sentence-transformers
+Core Features,OpenAI integration,1,2,1,Switching from local to API model
+Core Features,Memory management,1,2,1.5,ConversationBufferMemory implementation
+Core Features,Query analysis system,2,3,2.5,Function calling for query understanding
+Core Features,Context handling,1.5,2.5,2,Managing product and order contexts
+Model Experimentation,Local LLama testing,2,3,2.5,Attempted local model setup
+Model Experimentation,HuggingFace API testing,1,2,1.5,Tested inference API options
+Model Experimentation,GPT-4-mini integration,1,2,1,Final model selection and setup
+Testing,Sample queries development,1,2,0.5,Creating test suite
+Documentation,Code comments,0.5,1,0.25,In-code documentation
+Documentation,README preparation,1,2,1,Project documentation and setup guide
