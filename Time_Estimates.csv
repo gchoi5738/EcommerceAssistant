@@ -1,7 +1,7 @@
 Story,Task,Estimate min (hr),Estimate max (hr),Actual,Comment
 Initial Setup,Basic notebook setup & data loading,0.5,1,0.75,Basic structure completed
-Core Features,Basic product & order queries,1,2,,Simple matching implemented
-Core Features,Conversation context handling,1,2,,Store previous queries and customer IDs
+Core Features,Basic product & order queries,1,2,2,Simple matching implemented
+Core Features,Conversation context handling,1,2,1.5,Store previous queries and customer IDs
 Core Features,Implement sample query types,1.5,2.5,,Top rated products, priority orders etc.
 Testing,Test with example queries,0.5,1,,Verify against provided examples
 Documentation,Code comments and markdown,0.5,1,,Clear documentation
