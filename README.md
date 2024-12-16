@@ -33,7 +33,7 @@ Launch Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
-Open ecommerce_chatbot.ipynb and run the cells in order.
+Open chatbot.ipynb and run the cells in order.
 Make sure to add your OpenAI api key to the appropriate cell.
 
 
